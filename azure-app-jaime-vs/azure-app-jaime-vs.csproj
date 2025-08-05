@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_jaime_vs</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/aa4e908f-d60a-4e1d-8216-680533c61aca/resourceGroups/az-group-rg/providers/microsoft.insights/components/azure-app-jaime</ApplicationInsightsResourceId>
+    <UserSecretsId>40d27c0e-b737-4017-8515-5593043c5062</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+  </ItemGroup>
 
 </Project>
